@@ -1,12 +1,12 @@
 ---
 title: SpotX+lyricify4-windows端简洁无广告的音乐体验
 published: 2025-12-14
-description: ''
-image: ''
-tags: []
-category: ''
+description: 'SpotX+lyricify4-windows端简洁无广告的音乐体验'
+image: '/src/assets/images/spotify.png'
+tags: [Spotify, lyricify4]
+category: '软件'
 draft: false 
-lang: ''
+lang: 'zh_CN'
 ---
 
 ## 前言
