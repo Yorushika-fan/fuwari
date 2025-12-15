@@ -19,7 +19,7 @@ Fluxion 是一个基于Kali Linux的网络渗透测试工具,可以用来抓包�
 你可以使用Parallels Desktop安装Kali Linux,也可以使用其他虚拟机安装或者在物理机上安装。
 这里以Parallels Desktop为例。
 
-![Parallels Desktop](/src/assets/images/kali.png)
+![Parallels Desktop](/images/kali.png)
 
 
 ### 2. 安装 Fluxion & 依赖

@@ -51,5 +51,5 @@ git add . && git commit -m "feat: add config" && git push
 
 ### 5. 部署
 使用Vercel部署,一直点击next即可。
-![Vercel部署](/src/assets/images/vercel.png)
+![Vercel部署](/images/vercel.png)
 

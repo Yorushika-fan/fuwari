@@ -2,7 +2,7 @@
 title: SpotX+lyricify4-windows端简洁无广告的音乐体验
 published: 2025-12-14
 description: 'SpotX+lyricify4-windows端简洁无广告的音乐体验'
-image: '/src/assets/images/spotify.png'
+image: '/images/spotify.png'
 tags: [Spotify, lyricify4]
 category: '软件'
 draft: false 
@@ -24,7 +24,7 @@ lang: 'zh_CN'
 ```powershell
 iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/SpotX/refs/heads/main/run.ps1') } -new_theme"
 ```
-![spotX](/src/assets/images/spotX.png)
+![spotX](/images/spotX.png)
 
 ## 安装lyricify4
 
@@ -41,12 +41,12 @@ iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/SpotX/ref
 我安装的是便携版本的，需要下载后解压到文件夹中，然后运行Lyricify.exe即可。
 第一次运行可能需要下载.net 6.0 Desktop Runtime，下载后运行即可。
 
-![lyricify](/src/assets/images/lyricify.png)
+![lyricify](/images/lyricify.png)
 选择好配置后点击继续会跳转网页授权，看到授权成功页面就大功告成了。
-![lyricify授权](/src/assets/images/lyricify授权.png)
+![lyricify授权](/images/lyricify授权.png)
 
 ## 愉快地使用Spotify吧
 现在你的spotify已经可以正常使用了，无广告随意切歌。
-![spotify](/src/assets/images/spotify.png)
+![spotify](/images/spotify.png)
 当然还有lyricify4的歌词显示，支持多种歌词格式。
-![lyricify歌词](/src/assets/images/lyricify歌词.png)
+![lyricify歌词](/images/lyricify歌词.png)
