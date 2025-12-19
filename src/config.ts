@@ -57,7 +57,6 @@ export const profileConfig: ProfileConfig = {
 	name: "Yorushika",
 	bio: "学如逆水行舟，不进则退",
 	links: [
-
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",

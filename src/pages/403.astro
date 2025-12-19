@@ -1,0 +1,39 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+
+const title = "403 - 禁止访问";
+const description = "抱歉，您的访问请求被拒绝";
+const lang = "zh_CN";
+---
+
+<Layout title={title} description={description} lang={lang}>
+	<div class="min-h-screen flex items-center justify-center px-4 py-8">
+		<div class="card-base max-w-2xl w-full p-8 md:p-12 text-center">
+			<!-- 装饰图标 -->
+			<div class="mb-6">
+				<Icon name="material-symbols:block" class="w-16 h-16 md:w-20 md:h-20 mx-auto text-[var(--primary)]" />
+			</div>
+			
+			<!-- 403错误代码 -->
+			<div class="text-[6rem] md:text-[10rem] lg:text-[12rem] font-bold text-90 leading-none mb-4">
+				403
+			</div>
+			
+			<!-- 标题 -->
+			<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-90 mb-6">
+				访问被禁止
+			</h1>
+			
+			<!-- 说明文字 -->
+			<div class="text-75 max-w-xl mx-auto space-y-4">
+				<p class="text-base md:text-lg lg:text-xl leading-relaxed">
+					抱歉，本站禁止中国大陆IP地址访问。
+				</p>
+				<p class="text-sm md:text-base text-50">
+					由于网络环境和政策原因，我们暂时无法为来自中国大陆的访问者提供服务。感谢您的理解。
+				</p>
+			</div>
+		</div>
+	</div>
+</Layout>
